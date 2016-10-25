@@ -17,4 +17,13 @@ class DefaultController extends Controller
     {
         return [];
     }
+
+    /**
+     * @Route("/test", name="test")
+     * @Template()
+     */
+    public function testAction(Request $request)
+    {
+        return [];
+    }
 }

@@ -1,0 +1,43 @@
+.slider{
+    background: url("../images/slider2.png");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-position: center;*/
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 2em;
+}
+.white{
+    color: #EEEEEE;
+}
+.center{
+    text-align: center;
+}
+.title-1{
+    margin-left: -250px;
+    height: 100%;
+    line-height: 100%;
+}
+.block-1{
+    overflow: hidden;
+    height: 350px;
+}
+.right{
+    float: right;
+}
+.thumb{
+    width: 100%;
+}
+.thumb img{
+    max-width: 100%;
+}
